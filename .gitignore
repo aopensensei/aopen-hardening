@@ -1,0 +1,11 @@
+# Ansible/Terraformなどで生成される一時ファイル例
+*.tfstate
+*.tfstate.backup
+*.retry
+
+# ディレクトリ例
+data/*
+!data/.gitkeep
+
+# その他不要ファイル
+.DS_Store
