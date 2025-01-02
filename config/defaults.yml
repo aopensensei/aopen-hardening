@@ -1,0 +1,7 @@
+phase1:
+  deploy_target: "aws"         # デプロイ対象のデフォルト
+  selected_preset: "h2024c-practice"  # 構成プリセットのデフォルト
+  admin_user: "aopen_admin"          # 管理者アカウントのデフォルト
+  admin_password: "admin123!"  # 管理者パスワードのデフォルト
+aws:
+  default_region: "us-east-1"

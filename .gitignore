@@ -4,8 +4,8 @@
 *.retry
 
 # ディレクトリ例
-data/*
-!data/.gitkeep
+workspace/*
+!workspace/.gitkeep
 
 # その他不要ファイル
-.DS_Store
+./init-structure.sh
